@@ -70,6 +70,7 @@ declare module "johnny-five" {
 
     export class Button{
         constructor(pin: number | string | ButtonOptions);
+        value:number;
         on(event: string, cb: ()=>void): void;
         on(event: "hold", cb: (holdTime: number)=>void): void;
         on(event: "down", cb: ()=>void): void;
@@ -546,6 +547,11 @@ declare module "johnny-five" {
             static DRIVER: number;
             static TWO_WIRE: number;
             static FOUR_WIRE: number;
+        }
+
+        export class DIRECTION{
+            static CW: number;
+            static CCW: number;
         }
     }
 
