@@ -1,7 +1,7 @@
 {
   "name": "retyped-johnny-five-tsd-ambient",
   "description": "TypeScript typings for johnny-five",
-  "version": "0.0.0-0",
+  "version": "0.0.0-1",
   "licence": "MIT",
   "repository": "https://github.com/retyped/johnny-five-tsd-ambient",
   "typescript": {
