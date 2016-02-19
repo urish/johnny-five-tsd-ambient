@@ -547,6 +547,11 @@ declare module "johnny-five" {
             static TWO_WIRE: number;
             static FOUR_WIRE: number;
         }
+
+        export class DIRECTION{
+            static CW: number;
+            static CCW: number;
+        }
     }
 
     export class Stepper{
